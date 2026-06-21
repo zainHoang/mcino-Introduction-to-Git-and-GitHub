@@ -1,0 +1,37 @@
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git merge bug-fix-typo
+merge: bug-fix-typo - not something we can merge
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git branch
+* bug-fix-typo
+  main
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git add README.md
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git commit -m "Fix typo"
+On branch bug-fix-typo
+nothing to commit, working tree clean
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git add README.md
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git commit -m "Fix typo"
+[bug-fix-typo 63ea27c] Fix typo
+ 1 file changed, 2 insertions(+)
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>git merge bug-fix-typo
+Updating a22aeb4..63ea27c
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+(torch_env) C:\Users\ASUS\mcino-Introduction-to-Git-and-GitHub>
